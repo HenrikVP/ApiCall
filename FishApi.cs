@@ -29,6 +29,8 @@ namespace ApiCall
 
         T GetData<T>(T tType)
         {
+
+            Console.WriteLine(tType.GetType());
             Console.Write("Search: ");
             string input = Console.ReadLine();
 
